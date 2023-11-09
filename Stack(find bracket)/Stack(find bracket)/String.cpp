@@ -85,5 +85,5 @@ String String::checkBracket()
 			if (GetStr()[i] == OpenBrackets[j])
 				stack.push(GetStr()[i]);
 	}
-	return *this;
+	return "Correct";
 }

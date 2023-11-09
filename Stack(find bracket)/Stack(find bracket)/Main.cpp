@@ -5,6 +5,6 @@ int main() {
 	cout << math.checkBracket();
 	String math2("4+{(4-2))-{6}");
 	cout << math2.checkBracket();
-	String math3("{[()]}((4-2))");
+	String math3("{[(444)]}((4-2))");
 	cout << math3.checkBracket();
 }
